@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+    cout <<"Hii RAM";
+    return 0;
+}
