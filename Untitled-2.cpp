@@ -1,18 +1,10 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-
-  int first_number, second_number, sum;
-    
-  cout << "Enter two integers: ";
-  cin >> first_number >> second_number;
-
-  // sum of two numbers in stored in variable sumOfTwoNumbers
-  sum = first_number + second_number;
-
-  // prints sum 
-  cout << first_number << " + " <<  second_number << " = " << sum;     
-
-  return 0;
+int x = 20;
+int y = 18;
+if (x > y) {
+cout<<"x is greater than y";
+}
+return 0;
 }
