@@ -1,7 +1,6 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main (){
-    cout <<"Hii RAM";
-    return 0;
+int main() {
+    cout <<"Helloo world";
+return 0;
 }
