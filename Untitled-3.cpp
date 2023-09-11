@@ -1,16 +1,13 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-  int n;
-
-  cout << "Enter an integer: ";
-  cin >> n;
-
-  if ( n % 2 == 0)
-    cout << n << " is even.";
-  else
-    cout << n << " is odd.";
-
-  return 0;
+int main()
+{
+    int time=20;
+    if(time<18){
+        cout<<"Good Morning";
+    }
+    else{
+        cout<<"Good evening";
+    }
+    return 0;
 }
