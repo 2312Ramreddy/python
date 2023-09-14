@@ -1,38 +1,15 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-int time = 22;
-if (time<10) {
+class Geeks {
 
-cout<<"Good morning";
-} else if (time<20) {
-cout <<"Good afternoon";
-} else {
-cout<< "Good evening";
+public:
+    string geekname;
+	void printname() { cout << "Geekname is:" << geekname; }
+};
+int main()
+{
+	Geeks obj1;
+    obj1.geekname = "Abhi";
+	obj1.printname();
+	return 0;
 }
-return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
