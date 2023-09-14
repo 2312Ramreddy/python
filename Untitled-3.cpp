@@ -1,13 +1,8 @@
 #include<iostream>
+#include<string>
 using namespace std;
-int main()
-{
-    int time=20;
-    if(time<18){
-        cout<<"Good Morning";
-    }
-    else{
-        cout<<"Good evening";
-    }
-    return 0;
+int main(){
+  string cars[4]={"volvo","bmw","ford","tata"};
+cout<<cars[2];
+return 0;
 }
