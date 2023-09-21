@@ -1,8 +1,41 @@
-#include<iostream>
-#include<string>
+// C++ program to print diamond shape
+
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-  string cars[4]={"volvo","bmw","ford","tata"};
-cout<<cars[2];
-return 0;
+
+void printDiamond(int n)
+{
+	int space = n - 1;
+
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0;j < space; j++)
+			cout << " ";
+
+		for (int j = 0; j <= i; j++)
+			cout << "* ";
+
+		cout << endl;
+		space--;
+	}
+
+	space = 0;
+
+	for (int i = n-1; i > 0; i--)
+	{
+		for (int j = 0; j < space; j++)
+			cout << " ";
+
+		for (int j = 0;j < i;j++)
+			cout << " *";
+
+		cout << endl;
+		space++;
+	}
+}
+
+int main()
+{
+	printDiamond(5);
+	return 0;
 }
